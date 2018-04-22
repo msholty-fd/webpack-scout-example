@@ -1,0 +1,41 @@
+{
+  "name": "webpack-scout-example",
+  "version": "1.0.0",
+  "description": "Demonstrating a simple webpack configuration that allows you to load your project assets from anywhere",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msholty-fd/webpack-scout-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "scout"
+  ],
+  "author": "Michael Sholty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msholty-fd/webpack-scout-example/issues"
+  },
+  "homepage": "https://github.com/msholty-fd/webpack-scout-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "@babel/preset-stage-0": "^7.0.0-beta.44",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.6.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
